@@ -1,0 +1,50 @@
+		h1 {
+			text-align: center;
+			padding: 15px;
+		}
+
+		.head {
+			background-color: lightblue;
+			padding-bottom: 30px;
+		}
+
+		div.meme {
+			margin: 30px;
+			width: 450px;
+			height: 450px;
+			text-align: center;
+			font-size: 40px;
+			font-family: impact;
+			color: white;
+			position: relative;
+			-webkit-text-stroke: 1px black;
+			text-transform: uppercase;
+			/*background-repeat: no-repeat;*/
+			/*background-position: center center; */
+			/*background-size: cover;*/
+		}
+
+		div.meme:hover {
+			opacity: 0.5;
+			/*background: url("https://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=16256498") !important;*/
+			/*background-repeat: no-repeat !important;*/
+			/*background-position: center center !important;*/
+		}
+		
+		#top {
+			position: absolute;
+			margin-top: 0;
+		    top: 0;
+			right: 0;
+			left: 0;
+			overflow: hidden;
+		}
+
+		#bottom {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			left: 0;
+			margin-bottom: 0;
+			overflow: hidden;
+		};

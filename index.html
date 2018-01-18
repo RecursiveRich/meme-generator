@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Meme Generator</title>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	
+	<div class="head">
+	<div class="container">	
+		<h1>Meme Generator</h1>
+		<form>
+		  <div class="form-group">
+		    <label for="img-url">URL for Image</label>
+		    <input type="url" class="form-control" id="img-url"  placeholder="Enter URL">
+		    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+		  </div>
+		  <div class="form-group">
+		    <label for="top-text">Top Text</label>
+		    <input type="text" class="form-control" id="top-text" placeholder="Enter Top Text">
+		  </div>
+		  <div class="form-group">
+		    <label for="bottom-text">Top Text</label>
+		    <input type="text" class="form-control" id="bottom-text" placeholder="Enter Bottom Text">
+		  </div>
+		  <button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+	</div>
+	</div>
+
+	<!-- MEME SECTION -->
+	
+	<div class="container">
+		<div class="row">
+		
+			<!-- #1 -->
+			<div class="meme col-md-5" style="background: url('https://imgflip.com/s/meme/Creepy-Condescending-Wonka.jpg'); background-repeat: no-repeat; background-position: center center; background-size: cover;">
+				<p id="top">a a</p> 
+				<p id="bottom">b b</p>
+			</div>
+
+			<!-- #2 -->
+			<div class="meme col-md-5" style="background: url('https://i.ytimg.com/vi/lb9n9RTLE7o/maxresdefault.jpg'); background-repeat: no-repeat; background-position: center center; background-size: cover;">
+				<p id="top">Whacka, whacka, Whacka, whacka, Whacka, whacka</p> 
+				<p id="bottom">Yup, yup, Yup, yup, Yup, yup, Yup, yup, Yup, yup</p>
+			</div>
+			
+			<!-- #3 -->
+			<div class="meme col-md-5" style="background: url('https://imgflip.com/s/meme/Leonardo-Dicaprio-Cheers.jpg'); background-repeat: no-repeat; background-position: center center; background-size: cover;">
+				<p id="top">Whacka, whacka, Whacka, whacka, </p> 
+				<p id="bottom">Yup, yup, Yup</p>
+			</div>
+
+			<div class="meme col-md-5" style="background: url('https://lh3.googleusercontent.com/YN836O3aUA0_6SBU76kIyd7RT_qyg9K1ol__lll6AXOh1XIhx3akXeRbtT7qpB4g6Y0=h900'); background-repeat: no-repeat; background-position: center center; background-size: cover;">
+				<p id="top">Whacka, whacka, Whacka, whacka, Whacka, whacka</p> 
+				<p id="bottom">Yup, yup, Yup, yup, Yup, yup, Yup, yup, Yup, yup</p>
+			</div>
+
+				<div class="meme col-md-5" style="background: url('https://images.theconversation.com/files/38926/original/5cwx89t4-1389586191.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip'); background-repeat: no-repeat; background-position: center center; background-size: cover;">
+				<p id="top">Whacka, whacka, Whacka, whacka, Whacka, whacka</p> 
+				<p id="bottom">Yup, yup, Yup, yup, Yup, yup, Yup, yup, Yup, yup</p>
+			</div>
+
+			<div class="meme col-md-5" style="background: url('https://imgflip.com/s/meme/Dr-Evil-Laser.jpg'); background-repeat: no-repeat; background-position: center center; background-size: cover;">
+				<p id="top">Whacka, whacka, Whacka, whacka, Whacka, whacka</p> 
+				<p id="bottom">Yup, yup, Yup, yup, Yup, yup, Yup, yup, Yup, yup</p>
+			</div>
+
+			<div class="meme col-md-5" style="background: url('https://imgflip.com/s/meme/Picard-Wtf.jpg'); background-repeat: no-repeat; background-position: center center; background-size: cover;">
+				<p id="top">Whacka, whacka, Whacka, whacka, Whacka, whacka</p> 
+				<p id="bottom">Yup, yup, Yup, yup, Yup, yup, Yup, yup, Yup, yup</p>
+			</div>
+
+			<div class="meme col-md-5" style="background: url('https://media.giphy.com/media/l4Jz3a8jO92crUlWM/giphy_s.gif'); background-repeat: no-repeat; background-position: center center; background-size: cover;">
+				<p id="top">Whacka, whacka, Whacka, whacka, Whacka, whacka</p> 
+				<p id="bottom">Yup, yup, Yup, yup, Yup, yup, Yup, yup, Yup, yup</p>
+			</div>
+
+		</div>
+	</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>
