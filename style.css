@@ -3,6 +3,19 @@
 			padding: 15px;
 		}
 
+		div.instruction {
+			position: relative;
+			padding-top: 20px;
+			padding-bottom: 35px;
+		}
+
+		h2 {
+			position: absolute;
+			left: 0;
+			right: 0;
+			text-align: center;
+		}
+
 		.head {
 			background-color: lightblue;
 			padding-bottom: 30px;
